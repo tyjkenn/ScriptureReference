@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         EditText verseEditText = (EditText) findViewById(R.id.verseField);
 
         //Build a message for the next activity
-        String message = "You favorite scripture is: ";
+        String message = "Your favorite scripture is: ";
         message += bookEditText.getText().toString() + " ";
         message += chapterEditText.getText().toString() + ":";
         message += verseEditText.getText().toString();
